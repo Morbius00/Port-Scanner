@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#!/usr/python-script/run
 from logging import exception
 import socket
 import sys
@@ -68,3 +69,4 @@ if __name__ == '__main__':
         print('example: ./scanner.py 192.168.0.17 1 65535\n')
         print('usage: ./scanner.py <network> <start port> <end port> -n')
         print('Example: ./scanner.py 192.168.0 1 65535 -n')
+        print('Example: ./scanner.py 3000.00.1.84747 localhost')
